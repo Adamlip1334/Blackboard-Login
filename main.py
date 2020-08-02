@@ -23,13 +23,13 @@ def BlackBoardLogin():
 	
 	#Enters your email
 	username_box = driver.find_element_by_id('userNameInput') 
-	username_box.send_keys('01833736@student.commnet.edu') 
+	username_box.send_keys(email) 
 	print ("Email Id entered") 
 	time.sleep(1)
 	
 	#Enters your password 
 	password_box = driver.find_element_by_id('passwordInput') 
-	password_box.send_keys('LoginPortal13!?') 
+	password_box.send_keys(password) 
 	print("Password entered")
 	time.sleep(1)
 
